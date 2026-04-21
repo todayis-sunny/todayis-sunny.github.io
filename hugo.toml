@@ -6,3 +6,6 @@ theme = 'Book'
 [params]
   BookLogo = 'profile.png'
   BookFavicon = 'profile.png'
+  [params.BookMenu]
+    profileImage = 'profile.png'
+    githubLink = 'https://github.com/todayis-sunny'
