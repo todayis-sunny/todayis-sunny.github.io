@@ -6,3 +6,6 @@
 	path = content
 	url = https://github.com/todayis-sunny/todayis-sunny.github.io
 	branch = content
+[submodule "themes/Book"]
+	path = themes/Book
+	url = https://github.com/minyeamer/hugo-book-custom
