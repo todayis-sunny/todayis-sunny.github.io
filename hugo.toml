@@ -2,3 +2,7 @@ baseURL = 'https://todayis-sunny.github.io/'
 languageCode = 'ko-kr'
 title = 'todayis-sunny blog'
 theme = 'Book'
+
+[params]
+  BookLogo = 'profile.png'
+  BookFavicon = 'profile.png'
