@@ -4,8 +4,7 @@ title = 'todayis-sunny blog'
 theme = 'Book'
 
 [params]
-  BookLogo = 'profile.png'
-  BookFavicon = 'profile.png'
+  BookFavicon = 'profile.png' # 파비콘을 직접 만든 투명 이미지로 변경하시려면 여기 파일명을 바꾸세요.
   [params.BookMenu]
-    profileImage = 'profile.png'
+    profileImage = '/profile.png'
     githubLink = 'https://github.com/todayis-sunny'
