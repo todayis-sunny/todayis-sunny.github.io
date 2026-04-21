@@ -21,7 +21,13 @@ fi
 git commit -m "$msg"
 
 # 빌드 결과를 `source` 브랜치에 반영
-git push origin source
+git push origin HEAD:source
+
+# `content` 브랜치 (마크다운 원본) 반영
+cd ../content
+git add .
+git commit -m "$msg"
+git push origin HEAD:content
 
 # `main` 브랜치로 이동
 cd ..
